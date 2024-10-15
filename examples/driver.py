@@ -19,7 +19,7 @@ def main():
     plt.xlabel("Launch Angles (Radians)")
     plt.ylabel("Alpha")
     plt.savefig('/Users/matth/OneDrive/Desktop/GOPHLAB1/goph419-f2024-lab01-stMD/figures/Launch_Angles_over_Alpha.png', bbox_inches="tight")
-
+    plt.show()
 
     # Question 4
     x_max = [1.0, 1.2, 1.4, 1.6, 1.8, 2.0, 2.2, 2.4]
@@ -33,7 +33,7 @@ def main():
     plt.xlabel("Ratio of Escape Velocity to Terminal Velocity")
     plt.ylabel("Launch Angles (Radians)")
     plt.savefig('/Users/matth/OneDrive/Desktop/GOPHLAB1/goph419-f2024-lab01-stMD/figures/Launch_Angles_over_Ratio_Velocity.png',bbox_inches="tight")
-    
+    plt.show()
     
 if __name__ == '__main__':
     main()
